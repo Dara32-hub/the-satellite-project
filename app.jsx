@@ -133,7 +133,7 @@ function App() {
   const [view, setView] = useState("dashboard");
 
   useEffect(() => {
-    fetch("./data/dashboard-data.json")
+    fetch("./dashboard-data.json")
       .then((response) => response.json())
       .then((payload) => {
         setData(payload);
@@ -389,7 +389,7 @@ function LeafletAustriaMap({ selected, bundesland, setSelectedId, activeLayer, d
     }).addTo(map);
     mapRef.current = map;
 
-    fetch("./data/austria-bundeslander.geojson")
+    fetch("./austria-bundeslander.geojson")
       .then((response) => response.json())
       .then((geojson) => {
         geoJsonRef.current = geojson;
