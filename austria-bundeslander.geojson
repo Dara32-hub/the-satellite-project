@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "VORARLBERG" },
+      "geometry": { "type": "Polygon", "coordinates": [[[9.45,46.82],[10.05,46.82],[10.20,47.10],[10.10,47.45],[9.70,47.62],[9.52,47.28],[9.45,46.82]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "TIROL" },
+      "geometry": { "type": "Polygon", "coordinates": [[[10.05,46.78],[12.75,46.82],[12.95,47.28],[12.45,47.62],[11.35,47.55],[10.15,47.45],[10.05,46.78]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "SALZBURG" },
+      "geometry": { "type": "Polygon", "coordinates": [[[12.55,46.90],[13.85,46.92],[13.92,47.72],[13.15,48.02],[12.45,47.62],[12.55,46.90]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "KÄRNTEN" },
+      "geometry": { "type": "Polygon", "coordinates": [[[12.55,46.42],[15.10,46.48],[15.20,47.10],[13.85,47.22],[12.62,46.92],[12.55,46.42]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "STEIERMARK" },
+      "geometry": { "type": "Polygon", "coordinates": [[[14.65,46.55],[16.15,46.65],[16.10,47.75],[15.15,48.05],[13.88,47.72],[13.82,46.92],[14.65,46.55]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "OBERÖSTERREICH" },
+      "geometry": { "type": "Polygon", "coordinates": [[[12.85,47.55],[14.95,47.55],[15.08,48.45],[13.78,48.78],[12.75,48.32],[12.85,47.55]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "NIEDERÖSTERREICH" },
+      "geometry": { "type": "Polygon", "coordinates": [[[14.85,47.48],[17.05,47.58],[17.15,48.55],[16.35,49.02],[14.98,48.78],[14.82,47.95],[14.85,47.48]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "WIEN" },
+      "geometry": { "type": "Polygon", "coordinates": [[[16.22,48.12],[16.55,48.12],[16.58,48.32],[16.28,48.34],[16.22,48.12]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "BURGENLAND" },
+      "geometry": { "type": "Polygon", "coordinates": [[[16.05,46.82],[17.12,46.90],[17.22,48.08],[16.62,48.28],[16.18,47.55],[16.05,46.82]]] }
+    }
+  ]
+}

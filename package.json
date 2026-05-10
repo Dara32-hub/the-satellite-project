@@ -1,0 +1,13 @@
+{
+  "name": "the-satellite-project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/verify-static.mjs",
+    "prepare:data": "powershell -ExecutionPolicy Bypass -File ./scripts/prepare-data.ps1",
+    "preview": "node ./server.mjs",
+    "dev": "node ./server.mjs",
+    "start": "node ./server.mjs"
+  }
+}
